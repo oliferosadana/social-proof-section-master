@@ -1,0 +1,255 @@
+* {
+    font-family: 'Spartan', sans-serif;
+}
+
+main {
+    z-index: 1;
+}
+
+.svg-desktop {
+    top: 0;
+    position: absolute;
+}
+
+.svg-desktop img {
+    width: auto;
+    height: 100%;
+}
+
+body {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    height: 100%;
+    width: auto;
+}
+
+.container {
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    margin: 124px 160px 124px 160px  ;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+}
+
+.jumbotron {
+    width: 409px;
+    height: 246px;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    color: hsl(300, 43%, 22%);
+}
+
+.star {
+    padding: 0 20px 0 0;
+}
+
+.rates {
+    width: 518px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.rate {
+    background-color:  hsl(300, 24%, 96%);
+    width: 420px;
+    height: 53px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate img {
+    size: 10px;
+}
+
+.rape {
+    display: flex;
+    width: 518px;
+    height: 194px;
+}
+
+.rate1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rate2 {
+    display: flex;
+    justify-content: center;
+}
+
+.rate3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    font-size: 15px;
+}
+
+.card-container {
+    height: 300px;
+    width: 1054px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 8px;
+    background-color:hsl(300, 43%, 22%);
+    height: 222px;
+    width: 334px;
+    padding: 30px;
+}
+
+.card-parent {
+    height: 252px;
+    width: 334px;
+    display: flex;
+}
+
+.card1 {
+    display: flex;
+    
+    align-items: flex-end;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    margin: 0 28px 0 28px;
+}
+
+.card3 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.pink {
+    color: hsl(333, 80%, 67%);
+}
+
+.white {
+    color: white;
+}
+
+.head {
+    display: flex;
+}
+
+.head img{
+    border-radius: 50%;
+    padding: 10px;
+    height: 60px;
+}
+
+.tittle {
+    flex-direction: column;
+    padding: 0;
+}
+
+@media (max-width:375px) {
+
+    .jumbotron h1 {
+        font-size: 30px
+    }
+
+    .jumbotron {
+        height: 245px;
+        width: auto;
+        text-align: center;
+    }
+
+    .row {
+        margin: 84px 27px 84px 27px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 105rem;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rates {
+        display: flex;
+        padding-bottom: 30px;
+    }
+
+    .rate {
+        width: 320px;
+        height: 84px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+
+    .rate2 {
+        display: flex;
+        justify-content: start;
+    }
+    
+    .rate3 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .star {
+        margin-bottom: 8px;
+    }
+
+    .rape {
+        height: auto;
+        width: auto;
+    }
+
+    .card-container {
+        display: unset;
+        width: 10px;
+        padding-top: 4rem;
+    }
+
+    .card-parent {
+        top: 10px;
+    }
+
+    .card2 {
+        margin: 0;
+    }
+
+    .card {
+        width: 260px;
+        margin-bottom: 5rem;
+    }
+
+    .svg-desktop {
+        display: none;
+    }
+
+    .svg-mobile {
+        position: absolute;
+    }
+}
+
+
+
+
