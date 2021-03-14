@@ -26,8 +26,8 @@ body {
     padding: 0;
     background-color: hsl(0, 0%, 100%);
     box-sizing: border-box;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 1440px;
 }
 
 .container {
@@ -107,7 +107,7 @@ p {
 
 .card-container {
     height: 300px;
-    width: 1054px;
+    width: 2000px;
     display: flex;
     justify-content: space-between;
 }
