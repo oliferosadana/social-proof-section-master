@@ -6,6 +6,10 @@ main {
     z-index: 1;
 }
 
+.svg-mobile {
+    display: none;
+}
+
 .svg-desktop {
     top: 0;
     position: absolute;
